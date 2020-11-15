@@ -1,0 +1,149 @@
+body{
+	background: none;
+}
+.container{
+	margin:0px auto 0px auto;
+}
+.header{
+background-color: #100000;
+height: 50px;
+width: auto;
+padding-top: 5px;
+}
+.header a, p{
+	text-decoration: none;
+	text-align: right;
+	font-size: 14px;
+	color: #fff;
+	padding: 5px;
+	margin-top: 2px;
+}
+
+.navbar{	
+	background-color: #fff;
+	height: 105px;
+    width: auto;
+    border-bottom: 2px solid #300000;
+}
+.navbar img{
+	height: 100px;
+	width: 250px;
+	float: left;
+	margin-left: auto;
+	padding-right: 5px;
+
+}
+.navbar h1{
+	color: #300000;
+	text-align: left;
+	font-weight: bolder;
+	font-size: 40px;
+	text-shadow: 2px 0px #000;
+	font-style: italic;
+	font-family: serif;
+}
+.navbar h3{
+	color: #000;
+	font-style: normal;
+	font-weight: bold;
+	text-align: left;
+	margin-top: -28px;
+}
+
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.navbar li{
+	color: #000;
+	font-size: 20px;
+	padding: 5px;
+	margin-top: -40px;
+	margin-right: 20px;
+	text-align: right;
+	font-weight: bolder;
+
+}
+.content{
+	background-color: #300000;
+	height:500px; 
+	max-width:auto;
+
+}
+.content p{
+	text-align: center;
+}
+.extra{
+	height: 50px;
+	width: 80px;
+	background-color: #300000;
+}
+.foot{
+	padding-top: 2px;
+	background-color: #000;
+	height: 200px;
+	max-width: auto;
+}
+
+
+.foot .developer p{
+	text-align: left;
+	color: #fff;
+	font-size: 12px;
+	line-height: 1px;
+
+
+}
+/*this is css for the login form*/
+
+.loginbox input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.loginbox input[type=submit] {
+    width: 100%;
+    background-color: #300000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.loginbox input[type=submit]:hover {
+    background-color: #100000;
+}
+
+.loginbox {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    height: 35	0px;
+    width: 600px;
+    margin: 50px 100px 20px 300px;
+    position: absolute;
+   
+}
+.button {
+    background-color: #FFF;
+    border: none;
+    color: #300000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: -80px 2px;
+    cursor: pointer;
+    height: 20px;
+}
